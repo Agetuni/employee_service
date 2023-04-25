@@ -117,10 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Position description is mandatory." xml:space="preserve">
+    <value>የስራ መደብ ማብራሪያ ግዴታ መሞላት አለበት!</value>
+  </data>
   <data name="Position name can't be null" xml:space="preserve">
     <value>የክፍሉ ስም ባዶ መሆን አይችልም!</value>
   </data>
+  <data name="Position name is mandatory." xml:space="preserve">
+    <value>የስራ መደብ ስም ግዴታ መሞላት አለበት!</value>
+  </data>
   <data name="Record already exists." xml:space="preserve">
     <value>መረጃው ከዚህ በፊት ተመዝግቧል!</value>
+  </data>
+  <data name="Record cannot be deleted." xml:space="preserve">
+    <value>ይህን መረጃ ማጥፋት አይቻልም!</value>
+  </data>
+  <data name="Record doesn't exist." xml:space="preserve">
+    <value>የተፈለገው መረጃ አልተገኝም!</value>
   </data>
 </root>
