@@ -1,7 +1,4 @@
-﻿using FluentValidation;
-using FluentValidation.Results;
-
-namespace EmployeeService.API.Filters;
+﻿namespace EmployeeService.API.Filters;
 
 public class ExceptionHandler : ExceptionFilterAttribute
 {
@@ -19,6 +16,7 @@ public class ExceptionHandler : ExceptionFilterAttribute
             StatusPhrase = "Internal Server Error",
             Timestamp = DateTime.Now,
         };
+
         apiError.Errors.Add(context.Exception.Message);
         context.Result = new JsonResult(apiError) { StatusCode = 500 };
         _logger.LogError($"exception->{context.Exception.Message} {context.Exception.StackTrace}");
